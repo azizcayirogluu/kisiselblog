@@ -122,7 +122,6 @@ a {
   text-decoration: underline;
 }
 
-/* Tablet */
 @media (max-width: 1024px) {
   .kapsayici {
     flex-direction: row;
@@ -134,7 +133,6 @@ a {
   }
 }
 
-/* Mobil */
 @media (max-width: 768px) {
   body {
     font-size: medium;
