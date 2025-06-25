@@ -1,82 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AZİZ ÇAYIROĞLU | PROJELER</title>
     <link rel="stylesheet" href="aziz.css" />
     <link rel="stylesheet" href="yükleniyor.css" />
-  </head>
-  <body>
+</head>
+<body>
     <header class="üst-header">
-      <a href="">AZİZ ÇAYIROĞLU</a>
-      <div id="message"></div>
-      <script>
-        const messageBox = document.getElementById("message");
+        <a href="">AZİZ ÇAYIROĞLU</a>
+        <div id="message"></div>
+        <script>
+            const messageBox = document.getElementById("message");
 
-        if (localStorage.getItem("visited")) {
-          messageBox.textContent = "Tekrar hoş geldin!";
-        } else {
-          messageBox.textContent =
-            "Sitemize hoş geldin! İlk kez mi geliyorsun?";
-          localStorage.setItem("visited", "true");
-        }
-      </script>
-      <nav class="üst-nav">
-        <a href="index.html">ANASAYFA</a>
-        <a href="projeler.html">PROJELER</a>
-        <a href="iletişim.html">İLETİŞİM</a>
-      </nav>
+            if (localStorage.getItem("visited")) {
+                messageBox.textContent = "Tekrar hoş geldin!";
+            } else {
+                messageBox.textContent =
+                    "Sitemize hoş geldin! İlk kez mi geliyorsun?";
+                localStorage.setItem("visited", "true");
+            }
+        </script>
+        <nav class="üst-nav">
+            <a href="index.html">ANASAYFA</a>
+            <a href="projeler.html">PROJELER</a>
+            <a href="iletişim.html">İLETİŞİM</a>
+        </nav>
     </header>
 
     <div class="coming-soon">
-      <h2>İçerik şu an hazır değil</h2>
-      <p>Bu alan üzerinde çalışmalarım devam ediyor.</p>
+        <h2>İçerik şu an hazır değil</h2>
+        <p>Bu alan üzerinde çalışmalarım devam ediyor.</p>
     </div>
 
     <style>
-      .coming-soon {
-        text-align: center;
-        margin: 80px auto;
-        max-width: 500px;
-        font-family: "Segoe UI", sans-serif;
-        color: #444;
-        opacity: 0.8;
-      }
+        .coming-soon {
+            text-align: center;
+            margin: 80px auto;
+            max-width: 500px;
+            font-family: "Segoe UI", sans-serif;
+            color: #444;
+            opacity: 0.8;
+        }
     </style>
 
     <div id="content" style="display: none"></div>
     <footer class="footer">
-      <div class="footer-icerik">
-        <div class="footer-item">
-          <p>&copy; 2025 Aziz Çayıroğlu. Tüm hakları saklıdır.</p>
-        </div>
-        <div class="footer-item">
-          <p>
-            <strong>İletişim:</strong>
-             <a href="mailto:azizcayirogluu@gmail.com"> azizcayirogluu@gmail.com </a>
-          </p>
-        </div>
+        <div class="footer-icerik">
+            <div class="footer-item">
+                <p>&copy; 2025 Aziz Çayıroğlu. Tüm hakları saklıdır.</p>
+            </div>
+            <div class="footer-item">
+                <p>
+                    <strong>İletişim:</strong>
+                    <a href="mailto:azizcayirogluu@gmail.com"> azizcayirogluu@gmail.com </a>
+                </p>
+            </div>
 
-        <div class="footer-item">
-          <p><strong>Sosyal Medya:</strong></p>
-          <a href="https://www.facebook.com/aziz.cay.roglu" target="_blank"
-            >Facebook</a
-          >
-          <a
-            href="https://www.instagram.com/azizcayirogluu/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExeWhFTUZGSjZyWTFlckk1eAEee0Y7KUXa6-NlgmwXG4DvdCD1mKpU2y2jYH7zImV39ZiannYtlK_20ZzR1h0_aem_i_bBs-8ftW7C3k8RSCTNoA#"
-            target="_blank"
-            >Instagram</a
-          >
-          <a href="https://www.linkedin.com/in/azizcayirogluu/" target="_blank"
-            >LinkedIn</a
-          >
+            <div class="footer-item">
+                <p><strong>Sosyal Medya:</strong></p>
+                <a href="https://www.facebook.com/aziz.cay.roglu" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/azizcayirogluu/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExeWhFTUZGSjZyWTFlckk1eAEee0Y7KUXa6-NlgmwXG4DvdCD1mKpU2y2jYH7zImV39ZiannYtlK_20ZzR1h0_aem_i_bBs-8ftW7C3k8RSCTNoA#"
+                   target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/azizcayirogluu/" target="_blank">LinkedIn</a>
 
-          <a href="https://github.com/azizcayirogluu">GitHub</a>
+                <a href="https://github.com/azizcayirogluu">GitHub</a>
+            </div>
         </div>
-      </div>
     </footer>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
